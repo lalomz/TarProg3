@@ -1,9 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
 int main() {
-	int suma;
+	int suma,op;
 	printf("Hola Mundo\n");
-	suma=1+1;
-	printf("La suma es: %i ",suma);
+	printf("introduce numero a sumar: ");
+	scanf( "%i", suma);
+	op=suma+suma;
+	printf("La suma es: %i",op);
 	getch();
 }
